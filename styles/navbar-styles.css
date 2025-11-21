@@ -1,0 +1,111 @@
+
+.navbar{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; 
+    padding: 0.8rem 0px;
+    gap: 6rem;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    gap: 2rem;
+}
+
+.navbar > .navbar-left img{
+    height: 2.2rem;
+    padding-left: 2rem;
+}
+
+.links-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.explore {
+    color: yellow;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.links > .general {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.general a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 800;
+    white-space: nowrap;
+}
+
+.links > .spark a {
+    padding: 0 2rem;
+    font-weight: 600;
+    color: #858585;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    font-size: 1.3em;
+}
+
+.create {
+    padding: 0.8em 1.2em;
+    background-color: #4B4E57;
+    font-weight: 600;
+    border-radius: 0.25rem;
+    white-space: nowrap;
+}
+
+.create i {
+    color: rgb(55, 218, 55);
+    font-size: 1.5rem;
+    
+}
+
+.search-icon {
+    font-size: 1.6em;
+    color: #4B4E57;
+}
+
+.user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.user a {
+    color: white;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    font-size: 1.1em;
+    padding: 0.8rem 1rem;
+    border-radius: 0.25rem;
+    background-color: #4B4E57;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.sign-up {
+    padding-right: 0.6rem;
+}
