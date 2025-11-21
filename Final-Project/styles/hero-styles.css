@@ -1,0 +1,88 @@
+.hero-section {
+    background: linear-gradient(to right, #30353B 35%, #191A1D 65%);
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    align-items: center;
+    gap: 7rem;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin-left: 3.75rem;
+    margin-top: 2.5rem;
+    width: 100%;
+    height: 35rem;
+    gap: 2.5em;
+
+}
+
+
+.content h1 {
+    font-weight: 200;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+    color: #DEDEDE;
+}
+
+.content h1 span{
+    color: white;
+    font-weight: 500;
+}
+
+.content p{
+    font-size: 2.2em;
+    font-weight: 300;
+    color: #A9ACB3;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 2em;
+    gap: 1em;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.buttons a {
+   text-decoration: none;
+}
+
+.green a {
+    color: black;
+    padding: 1rem 1.5rem;
+    background-color: #37ca74;
+    border-radius: 0.25rem;
+}
+
+.black a {
+    color: white;
+    padding: 1rem 1.5rem;
+    background-color: black;
+    border-radius: 0.25rem;
+}
+
+.hero-image {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top:2rem ;
+}
+
+.hero-image p {
+    margin-bottom: 0.1rem;
+    margin-left: 1rem;
+    color: white;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.hero-image img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+
+}
