@@ -1,0 +1,30 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    width: auto;
+    background-color:#4B4E57 ;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1em;
+    border-top: 1.5px solid grey;
+    border-bottom: 1.5px solid gray;
+}
+
+.footer-item {
+    padding: 1rem 3rem;
+    border-right: 1.5px solid gray;
+    white-space: nowrap;
+}
+
+.footer span {
+    font-weight: 800;
+    font-size: 1.4em;
+}
+
+.footer-item:last-child {
+    border-right: none;
+}
+
+ 
